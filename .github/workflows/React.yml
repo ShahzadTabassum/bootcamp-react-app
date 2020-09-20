@@ -38,4 +38,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./build shahzad.surge.sh --token ${{ secrets.SURGE_REACT }}
+        run: surge ./ shahzad.surge.sh --token ${{ secrets.SURGE_REACT }}
