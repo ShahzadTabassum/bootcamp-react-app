@@ -27,7 +27,7 @@ jobs:
         with:
             node-version: 12
       - name: GitHub Action for Yarn
-        uses: Borales/actions.yarn@v2.3.0
+        uses: browniebroke/yarn-upgrade-action@v1
         with:
            # Yarn command
            cmd: install #npm install/ yarn install      
